@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Selector Playground</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+    <h1> CSS Selector Playground </h1>
+
+    <p>Welcome</p>
+    <p class="red"> I am a red class </p>
+    <p id="orange"> I am an orange id </p>
+    <p class="red" id="purple"> I am super fancy. I have a class <em> and </em> an id! </p>
+
+    <p> * Descendants and Siblings * </p>
+    <p> * Descendant Combinator * </p>
+
+    <ul>
+        <li class="red">First element</li>
+        <li id="orange">Second element</li>
+        <li class="purple">Second element with a <a href=" https://teclada.com ">link</a> </li>
+    </ul>
+
+    <p> * Child Combinator * </p>
+
+    <dl>
+        <div>
+            <dt>Dog</dt>
+            <dd>A mans's best friend </dd>
+        </div>
+    </dl>
+
+    <p> * General Sibling Combinator * </p>
+
+    <form>
+        <input />
+        <label>Hello!</label>
+        <input />
+        <input />
+    </form>
+
+    <p> * Adjacent Sibling Combinator * </p>
+
+    <form>
+        <input />
+        <label type="lb">Hello!</label>
+        <input />
+        <input />
+    </form>
+</body>
+
+</html>

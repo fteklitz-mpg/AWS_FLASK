@@ -1,0 +1,9 @@
+/* Descendent Selectors  */
+
+li {
+    color: orange;
+}
+
+ul li a {
+    color: green;
+}

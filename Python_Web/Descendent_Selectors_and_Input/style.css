@@ -1,0 +1,77 @@
+/* Descendent Combinator Selectors  */
+
+li {
+    color: orange;
+}
+
+
+/* any child of a parent */
+
+ul li a {
+    color: green;
+}
+
+
+/* Child Combinator Selectors  */
+
+
+/* specific child of a parent */
+
+dl>div>dt {
+    font-weight: bold;
+}
+
+
+/* General Sibling Combinator Selectors  */
+
+
+/* siblings of a label element */
+
+label~input {
+    padding: 5px 10px
+}
+
+
+/* Adjacent Sibling Combinator Selectors  */
+
+
+/* siblings next to label element */
+
+label+input[type=lb] {
+    padding: 5px 10px
+}
+
+
+/* Color classes and types  */
+
+.red {
+    color: red;
+}
+
+.green {
+    color: green;
+}
+
+.purple {
+    color: purple;
+}
+
+.orange {
+    color: orange;
+}
+
+#red {
+    color: red;
+}
+
+#green {
+    color: green;
+}
+
+#purple {
+    color: purple;
+}
+
+#orange {
+    color: orange;
+}
